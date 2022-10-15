@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(52, 52, 52, 1);
+  caret-color: transparent;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 300vh;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #ff3c00, #ff0062, #0091ff, #00ffc3);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
