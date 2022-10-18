@@ -12,11 +12,6 @@ function App() {
     isPriority,
     isCompleted
   ) => {
-    const current = new Date();
-
-    let curDate = `${current.getFullYear()}-${
-      current.getMonth() + 1
-    }-0${current.getDate()}`;
 
     if (description.trim().length === 0) {
       description = "No description";
